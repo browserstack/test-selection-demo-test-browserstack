@@ -11,9 +11,9 @@ accessKey: BROWSERSTACK_ACCESS_KEY
 # ======================
 # The following capabilities are used to set up reporting on BrowserStack:
 # Set 'projectName' to the name of your project. Example, Marketing Website
-projectName: Sample Project
+projectName: Smart Test Selection Demo Project
 # Set `buildName` as the name of the job / testsuite being run
-buildName: Sample Smart Test Selection
+buildName: Smart Test Selection Demo Prediction Build
 # `buildIdentifier` is a unique id to differentiate every execution that gets appended to
 # buildName. Choose your buildIdentifier format from the available expressions:
 # ${BUILD_NUMBER} (Default): Generates an incremental counter with every execution
@@ -81,7 +81,7 @@ accessibility: false
 testObservability: true
 testOrchestrationOptions:
   runSmartSelection:
-    enabled: true
-    mode: 'relevantFirst'
+    enabled: false
+    mode: 'relevantOnly'
     source:
-      - '<dependent_source_code_path_cloned_locally>'
+      - '<path_to_demo_app_locally_cloned>'
