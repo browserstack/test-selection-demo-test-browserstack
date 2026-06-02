@@ -1,8 +1,8 @@
 userName: username
 accessKey: password
 
-projectName: Sample_Web_App
-buildName: local-pytest-build
+projectName: Smart Test Selection Impact Analysis Demo Project
+buildName: Smart Test Selection Impact Analysis Demo Build
 buildIdentifier: '#${BUILD_NUMBER}'
 framework: pytest
 
