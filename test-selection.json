@@ -1,0 +1,6 @@
+{
+  "DEMO_APP": {
+    "url": "https://github.com/harshit-bstack/test-selection-demo-app-browserstack",
+    "featureBranch": "add_product_error_msg"
+  }
+}
