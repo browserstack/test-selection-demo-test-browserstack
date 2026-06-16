@@ -2,13 +2,18 @@ userName: username
 accessKey: password
 
 projectName: Smart Test Selection Impact Analysis Demo Project
-buildName: Smart Test Selection Impact Analysis Demo Build
+buildName: Smart Test Selection Impact Analysis Demo Build 
 buildIdentifier: '#${BUILD_NUMBER}'
 framework: pytest
 
 testObservability: true
 automation: false
 browserstackLocal: false
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: Chrome
+    browserVersion: latest
 
 source: pytest-browserstack:local-sdk:v1.0
 debug: true
